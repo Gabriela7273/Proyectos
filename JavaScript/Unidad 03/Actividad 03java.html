@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function esmayor(num){
+            let ind;
+            let may=0;
+            let elem=0;
+            for(ind=0;ind<3;ind++){
+                if (num[ind]>may){
+                    may=num[ind];
+                    elem=ind;                    
+                }
+            }
+            return(elem);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        let numeros=[];
+        let nomb=[];
+        let indice;
+        let mayor;
+
+        for(indice=0;indice<3;indice++){
+            nomb[indice]=prompt('Ingrese un nombre');
+            numeros[indice]=prompt('Ingrese una edad');
+        }
+
+        mayor=esmayor(numeros);
+       alert('El mayor es '+ nomb[mayor]+' con '+numeros[mayor]+' años');        
+    </script>
+</body>
+</html>

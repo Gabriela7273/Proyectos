@@ -1,0 +1,22 @@
+.Negro {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 300px;
+    float: left;
+    overflow:hidden;
+    font-size: 50px;
+    margin: 8px;
+}
+
+.Rojo {
+    background-color: red;
+    color: yellow;
+    height: 300px;
+    width: 300px;
+    float: left;
+    overflow:hidden;
+    font-size: 50px;
+    margin: 8px;
+}
+

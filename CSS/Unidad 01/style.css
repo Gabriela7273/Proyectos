@@ -1,0 +1,45 @@
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style: none;
+    height: 40px;
+    background-color: lightsteelblue;
+    margin-bottom: 0px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+       
+    
+}
+
+.Enlace {
+    margin: 2px;
+    
+}
+
+section {
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 50px;   
+}
+
+.Imagen1 {
+    margin-left: 25px;
+}
+
+.Imagen2 {
+    height: 50px; 
+    width: 100px;
+}
+
+#Pie {
+    background-color: lightsteelblue;
+    text-align: center;
+    margin-top: 0px;
+}
+
